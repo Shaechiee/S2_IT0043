@@ -1,0 +1,88 @@
+/*css reset */
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: fantasy;
+}
+
+nav {
+	background-color: black;
+	font-family: fantasy;
+	color: white;
+}
+ .navbar-brand
+	{
+	color: whitesmoke;
+}
+ .navbar {
+        background-color: #black;
+        }
+        .navbar a {
+            color: black;
+        }
+        .navbar a:hover {
+            color: black;
+        }
+        .navbar a.active {
+            color: black;
+        }
+
+/* Hero Section */
+.hero {
+    background-image: url('hero2.jpg'); /* Replace 'your-image.jpg' with your image path */
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #blueviolet;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+/*about me */
+.about {
+    background-color: white;
+    margin: 80px;
+  }
+  
+  /* Projects Section */
+ .projects {
+    padding: 10px 0;
+    color: black;
+    border-width: 3rem;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+  }
+
+  /* Contact Section */
+ .contacts {
+      background-color: #f9f9f9;
+      color: black;
+      text-align: center;
+    }
+
+/* Footer */
+  .footer {
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+    
+  }
+
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+  
